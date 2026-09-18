@@ -30,7 +30,7 @@ from patient health records using 7 classification models.
 | SVM (RBF) | 75.44% | 19.29% | 76.42% |
 | Decision Tree | 74.17% | 22.81% | 75.91% |
 | KNN (k=5) | 79.94% | 14.94% | 66.36% |
-| Linear Regression | 72.60% | 22.65% | N/A |
+
 
 ---
 
@@ -39,8 +39,8 @@ from patient health records using 7 classification models.
 Raw Data → EDA → Handle Nulls → Label Encoding
 → Train/Test Split → StandardScaler → SMOTE
 → Train 7 Models → Hyperparameter Tuning
-→ OLS Manual Validation → LOG LOSS Manual
-→ Feature Importance → Prediction Function
+→ LOG LOSS Manual → Feature Importance 
+→ Prediction Function
 ```
 
 ---
@@ -50,7 +50,7 @@ Raw Data → EDA → Handle Nulls → Label Encoding
 - **Logistic Regression** wins on AUC (best for medical detection)
 - **Random Forest** wins on Accuracy (used in final prediction)
 - **SMOTE** balanced the dataset from 3,888:199 → 3,888:3,888
-- Manual **OLS** and **LOG LOSS** match sklearn exactly ✅
+- Manual **LOG LOSS** match sklearn exactly ✅
 
 ---
 
@@ -66,3 +66,4 @@ Raw Data → EDA → Handle Nulls → Label Encoding
 | Name | GitHub |
 |---|---|
 | Marwan Gharib | [@marwangharib08-gif](https://github.com/marwangharib08-gif) |
+| Mohamed Abdelrehim | [@mh0748761-png](https://github.com/mh0748761-png) |
